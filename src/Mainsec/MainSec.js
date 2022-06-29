@@ -1,6 +1,6 @@
 import React from 'react'
 import './mainsec.css'
-
+import {MdVerifiedUser,MdBookmarkAdded,MdSentimentSatisfiedAlt} from 'react-icons/md'
 import dimg from './src/../../Assets/imges/oppo-reno.jpg'
 
 const MainSec = () => {
@@ -81,14 +81,20 @@ const MainSec = () => {
               <div className="col-sm-4 border">
                 <div className="card card-mainsec">
                     <div className="card-body">
-                      This is some text within a card body.
+                    Shop with confidence
+                  <p>
+                   <MdVerifiedUser size={40}/> Direct from Vivo
+                   <p><MdBookmarkAdded size={40}/> Item sold directly by the brand.</p>
+                    </p>
+                   
+                   
                     </div>
                   </div>
                   <div className="card card-mainsec" >
                     <ul className="list-group list-group-flush" style={{width: '100%'}}>
-                      <li className="list-group-item">Cras justo odio</li>
-                      <li className="list-group-item">Dapibus ac facilisis in</li>
-                      <li className="list-group-item">Vestibulum at eros</li>
+                      <li className="list-group-item"><MdSentimentSatisfiedAlt size={20}/> Save this Seller</li>
+                      <li className="list-group-item">Contact Seller</li>
+                      <li className="list-group-item">See Other Item</li>
                     </ul>
                   </div>
               </div>
