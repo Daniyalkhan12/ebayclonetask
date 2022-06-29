@@ -4,7 +4,7 @@ import dimg1 from './src/../../Assets/imges/OPPO-A5-2020-design.jpg'
 const Ads = () => {
     return (
         <div>
-            <div className="form-control upper-ads">
+            <div className="form-control upper-ads border-0">
             <div className="card">
                 <img src={dimg1} className="card-img-top" alt="..."/>
                 <div className="card-body">
